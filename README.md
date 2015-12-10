@@ -17,9 +17,9 @@ I'm going to do everything I can without using Gulp. I think gulp is often an un
 
 # Linting
 
-I really want to use Standard for linting, but it's unbearable to use because of [this issue](https://github.com/feross/standard/issues/346). Instead, I'm using eslint-plugin-standard as a plugin for the linting rule set, and performing linting via eslint. I'm also using eslint-plugin-react for react-related rules, and I'm using babel-eslint to parse the linted code with Babel. So since I'm basically using the untouched Standard ruleset, I think its safe to use this banner -
+I really want to use Standard for linting, but it's unbearable to use because of [this issue](https://github.com/feross/standard/issues/346). Instead, I'm using eslint-plugin-standard as a plugin for the linting rule set, and performing linting via eslint. I'm also using eslint-plugin-react for react-related rules, and I'm using babel-eslint to parse the linted code with Babel. So since I'm basically using the untouched Standard ruleset, I think its safe to use this badge -
 
-[standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
 I jacked the .eslintrc from [here](https://gist.github.com/nkbt/9efd4facb391edbf8048) just to have a document with most rules ready to uncomment if need be in the future, while I'm still deciding what linting options work well for me.
 
