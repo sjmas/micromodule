@@ -5,6 +5,13 @@ The focus of this project is to make a small, simple scaffolding for developing 
 
 This is really a development workflow study where I am applying some ideas from microservice patterns to make my frontend application architecture more modular, safe, and distributable.
 
+# Usage
+
+```bash
+npm i
+npm start
+```
+
 # Testing
 
 Testing React components is confusing and generally sucks. The API keeps changing and it's hard to make sense out of the resources out there. I tried using react's TestUtils but I couldn't even make any practical use of them. Weak. Turns out I didn't really need them anyway, at least for this basic example. I got some pretty easy-to-write and understandable tests for a simple React component in the test/components folder. I'm using jsdom (and mocha-jsdom as a thin bootstrapping layer for less verbose test script) to mock a DOM to render the React components into. Then I'm just using ReactDOM for rendering the component, using ref's inside of the components to access the inner elements in the test script, and otherwise just using standard DOM api to check rendered stuff.
